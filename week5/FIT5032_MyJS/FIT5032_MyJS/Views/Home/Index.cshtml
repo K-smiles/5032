@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>bootstrap-datepicker example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @Styles.Render("~/Content/css")
+        <script src="~/Scripts/bootstrap-datepicker.min.js"></script>
+        <link href="~/Content/bootstrap-datepicker.min.css" rel="stylesheet" />
+ 
+    </head>
+    <body style="padding:10px;">
+        <div class="container ">
+            <input type="text" id="inputDate" class="form-control" value="2023-08-20" placeholder="Please choose your date">
+        </div>
+        <script>
+            $("#inputDate").datepicker({
+                language: 'en-AU', //language
+                autoclose: true, //
+                clearBtn: true,//clear button
+                format: "yyyy-mm-dd"//date formate
+            });
+
+        </script>
+    </body>
+</main>
+
+
+

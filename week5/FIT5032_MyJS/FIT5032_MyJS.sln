@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIT5032_MyJS", "FIT5032_MyJS\FIT5032_MyJS.csproj", "{6ABC51B2-6BEC-4BB2-8FF9-7C5907271EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIT5032_MyJS.Tests", "FIT5032_MyJS.Tests\FIT5032_MyJS.Tests.csproj", "{083AF2CA-2047-444B-9930-8E2C253E33A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ABC51B2-6BEC-4BB2-8FF9-7C5907271EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABC51B2-6BEC-4BB2-8FF9-7C5907271EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABC51B2-6BEC-4BB2-8FF9-7C5907271EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABC51B2-6BEC-4BB2-8FF9-7C5907271EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083AF2CA-2047-444B-9930-8E2C253E33A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083AF2CA-2047-444B-9930-8E2C253E33A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083AF2CA-2047-444B-9930-8E2C253E33A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083AF2CA-2047-444B-9930-8E2C253E33A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08EFE149-C2A0-489A-A9B8-CF87783A98E0}
+	EndGlobalSection
+EndGlobal
